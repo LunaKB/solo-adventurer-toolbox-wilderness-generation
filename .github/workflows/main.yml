@@ -60,7 +60,7 @@ jobs:
 
       - name: Build Docker Image
         run: | 
-          docker build -t sat-story-element:latest -f dockerfile .
+          docker build -t sat-wilderness-generation:latest -f dockerfile .
 
       - name: Save as TAR Archive
         run: docker save sat-wilderness-generation:latest -o sat-wilderness-generation.tar
