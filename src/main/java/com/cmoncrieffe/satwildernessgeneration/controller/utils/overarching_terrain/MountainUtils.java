@@ -1,4 +1,4 @@
-package com.cmoncrieffe.satwildernessgeneration.controller.utils;
+package com.cmoncrieffe.satwildernessgeneration.controller.utils.overarching_terrain;
 
 import com.cmoncrieffe.dice.DiceRoller;
 import com.cmoncrieffe.dice.DiceSize;
