@@ -1,0 +1,10 @@
+package com.cmoncrieffe.satwildernessgeneration.repositories.minor_terrain;
+
+import com.cmoncrieffe.satwildernessgeneration.entity.minor_terrain.Monument;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.web.bind.annotation.CrossOrigin;
+
+@CrossOrigin
+public interface MonumentRepository extends JpaRepository<Monument, Integer> {
+    Monument getMonumentById(int id);
+}
